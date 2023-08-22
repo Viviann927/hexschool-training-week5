@@ -1,0 +1,24 @@
+.main{
+    margin-left: 296px;
+
+    .cursor{
+        cursor: pointer;
+    }
+
+    .cursor:hover {
+        color: $success;
+    }
+
+    .pic{
+        min-width: 141px;
+        height: 141px;
+        background-image: url('/assets/images/emir.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-gray600 {
+        color: #6c757d;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,21 @@
+.title{
+    width: 296px;
+    min-height: 100vh;
+
+    .point:before{
+        position: absolute;
+        content: "";
+        height: 32px;
+        left: 1px;
+        border-left: 4px solid $success;
+    }
+
+}
+.userpic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('/assets/images/andychen.jpeg');
+    background-size: cover;
+    background-position: center;
+}
